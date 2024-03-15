@@ -1,0 +1,206 @@
+.padre
+{
+    background-color: deepskyblue;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto; /*Alinear en columnas las cajas diseñadas por porcentajes, como un margin mas o menos, pero no apto para mover, y si ponemos dos auto, lo dividirá en columnas*/
+    grid-template-rows: auto;
+    /*justify-content: center;*/ /*Deja un espacio al final de la fila, el flex-end hace lo mismo pero al inicio, y el center, los lleva al centro las cajas*/
+    /*align-items: center;*/ /*Los mismos flex de justify contente, estos manteniendo un tamaño determinado, reserva loe espacios*/
+}
+
+
+.hijo
+{
+    background-color:violet;
+    margin: 3px;
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+    /*grid-column: 1/5;*/  /*Para expandir su tamaño, y con el marcador indicando que se expanda de*/
+    
+}
+
+
+
+.hijo1
+{
+    background-color: greenyellow;
+    margin: 3px;
+    
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+    grid-column: 1/5;  /*Para expandir su tamaño, y con el marcador indicando que se expanda desde la columna 1 al 5*/
+}
+
+.hijo2
+{
+    background-color: greenyellow;
+    margin: 3px;
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+    grid-column: 1/3;
+}
+
+.hijo3
+{
+    background-color: greenyellow;
+    margin: 3px;
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+    grid-column: 3/3;
+}
+
+
+.hijo4
+{
+    background-color: greenyellow;
+    margin: 3px;
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+    grid-template-rows: 3/5;
+}
+
+.hijo5
+{
+    background-color: greenyellow;
+    margin: 3px;
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 500px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+    grid-template-rows: 3/3;
+    
+}
+
+.hijo6
+{
+    background-color: greenyellow;
+    margin: 3px;
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+    grid-template-rows: 3/5;
+}
+
+.hijo7
+{
+    background-color: greenyellow;
+    margin: 3px;
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+}
+
+.hijo8
+{
+    background-color: greenyellow;
+    margin: 3px;
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+}
+
+
+.padre2
+{
+    background-color: firebrick;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto; /*Alinear en columnas las cajas diseñadas por porcentajes, como un margin mas o menos, pero no apto para mover, y si ponemos dos auto, lo dividirá en columnas*/
+    grid-template-rows: 350px;
+    /*justify-content: center;*/ /*Deja un espacio al final de la fila, el flex-end hace lo mismo pero al inicio, y el center, los lleva al centro las cajas*/
+    /*align-items: center;*/ /*Los mismos flex de justify contente, estos manteniendo un tamaño determinado, reserva loe espacios*/
+}
+
+.hijo21
+{
+    background-color: aqua;
+    margin: 50px;
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+}
+.hijo22
+{
+    background-color: aqua;
+    margin: 3px;
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+}
+
+.hijo221
+{
+    background-color: greenyellow;
+    margin: 3px;
+    
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+    grid-column: 1/5;
+}
+
+.hijo222
+{
+    background-color: greenyellow;
+    margin: 3px;
+    
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+
+}
+
+.hijo223
+{
+    background-color: greenyellow;
+    margin: 3px;
+    
+    /*width: 100px;*/  /*Ligado al grid template colums, en la cual si no tiene width, las cajas se garandan su volumen*/
+    /*height: 100px;*/ /*Ligad al grid de rows, para la altura*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+}
+
+
+.hijo23
+{
+    background-color: aqua;
+    margin: 50px;
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+}
